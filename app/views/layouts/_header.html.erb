@@ -6,9 +6,6 @@
 				<ul class="nav pull-right">
 					<li><%= link_to "Home", root_path %></li>
 					<li><%= link_to "About", about_path %></li>
-<<<<<<< HEAD
-					<li><%= link_to "Sign in", '#' %></li>
-=======
 					<% if signed_in? %>
 						<li><%= link_to "Users", '#' %></li>
 						<li id="fat-menu" class="dropdown">
@@ -27,7 +24,6 @@
 					<% else %>
 							<li><%= link_to "Sign in", signin_path %></li>
 					<% end %>
->>>>>>> sign-in-out
 				</ul>
 			</nav>
 		</div>
